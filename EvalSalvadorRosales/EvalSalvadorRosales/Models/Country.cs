@@ -38,7 +38,7 @@ namespace EvalSalvadorRosales.Models
         [StringLength(30, ErrorMessage = "Largo Maximo 30 caracteres")]
         public CurrType currencies { get; set; }
        
-        [Required(ErrorMessage = "Nombre de pais obligatorio")]
+        [Required(ErrorMessage = "Bandera obligatoria")]
         [StringLength(50, ErrorMessage = "Largo Maximo 50 caracteres")]
         public string Flag { get; set; }
 
